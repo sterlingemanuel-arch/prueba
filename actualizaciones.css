@@ -1,0 +1,137 @@
+/* 1. Estilos generales de la pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+    color: #ffffff;
+}
+
+/* 2. Encabezado */
+header {
+    background-color:#62d3ff ;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #000000;
+}
+
+/* 3. Menú de navegación */
+nav {
+    background-color: #222222;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* 4. Contenedor principal */
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* 5. Sección principal */
+.contenedor section {
+    flex: 3;
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* 6. Aside */
+.contenedor aside {
+    flex: 1;
+    background-color: #2b2b2b;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* 7. Artículos */
+article {
+    margin-bottom: 20px;
+}
+
+/* 8. Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 9. Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #00ffff;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #6a0dad;
+    color: #ffffff;
+}
+
+/* 10. Formulario */
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    padding: 5px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #8a2be2;
+}
+
+/* 11. Pie de pagina */
+footer {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: #00ffff;
+}
